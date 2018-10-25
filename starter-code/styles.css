@@ -1,6 +1,12 @@
 html, body {
     margin: 0;
 }
+
+section {
+    padding: 5rem;
+}
+
+
 nav {
     background-color: #C12127;
     color: rgba(255,255,255,0.8);
@@ -10,6 +16,35 @@ nav {
 nav a {
     color: rgba(255,255,255,0.8);
     text-decoration: none;
+}
+
+
+#FirstSection {
+    background: url(images/city-scape.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#SecondSection {
+    margin: 0 auto;
+    background-color: rgb(39, 53, 71);
+    color: white;
+    text-align: center;
+}
+
+#beaberImg {
+    max-width: 450px;
+    width: 300px;
+}
+#ThirdSection {
+    background: url(images/forklift.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.inLine {
+    display: inline-block;
 }
 
 .top-links {
@@ -29,8 +64,16 @@ nav a {
     margin: 0 10px;
 }
 
-#FirstSection {
-    background: url(images/city-scape.svg);
-    background-repeat: no-repeat;
-    background-size: auto;
+.card {
+    box-sizing: padding-box;
+    Padding: 20px ;
+    Width: 40%;
+}
+
+.boxCard {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    width: 33%;
+    text-align: center;
 }
