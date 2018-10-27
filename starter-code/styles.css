@@ -43,6 +43,9 @@ nav a {
     color: white;
 }
 
+#FourthSection {
+    text-align: center;
+}
 .inLine {
     display: inline-block;
 }
