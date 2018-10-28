@@ -80,3 +80,13 @@ nav a {
     width: 33%;
     text-align: center;
 }
+
+.inputStyle{
+    background-color: rgb(31, 82, 111);
+    border: 1px solid rgb(69,111,134);
+}
+
+.imgLogo {
+    margin: 10px;
+    display: inline-block;
+}
